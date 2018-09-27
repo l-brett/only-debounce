@@ -1,0 +1,22 @@
+{
+  "name": "simple-debounce",
+  "version": "1.0.0",
+  "description": "Just a simple debounce function",
+  "main": "dist/debounce.js",
+  "scripts": {
+    "build": "node_modules/.bin/rollup src/debounce.js --output.format cjs --output.file dist/debounce.js",
+    "prepublish": "npm build"
+  },
+  "keywords": [
+    "debounce"
+  ],
+  "files": [
+    "dist/debounce.js"
+  ],
+  "author": "Leon Brett",
+  "homepage": "https://github.com/l-brett/simple-debounce",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.66.2"
+  }
+}
