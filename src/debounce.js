@@ -1,8 +1,8 @@
 /**
- * Simple Debounce
+ * Only Debounce
  *
  * @author Leon Brett
- * @export simple debounce
+ * @export only debounce
  * @param {function} func the function to debounce
  * @param {number} delay the delay in milliseconds
  * @returns a new debounce method(call this to debounce)
