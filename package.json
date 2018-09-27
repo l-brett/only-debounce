@@ -5,7 +5,7 @@
   "main": "dist/debounce.js",
   "scripts": {
     "build": "node_modules/.bin/rollup src/debounce.js --output.format cjs --output.file dist/debounce.js",
-    "prepublish": "npm build"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "debounce"
