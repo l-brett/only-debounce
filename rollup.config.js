@@ -9,7 +9,10 @@ export default {
   plugins: [
     babel({
       exclude: 'node_modules/**',
-      plugins: ["@babel/plugin-transform-parameters"]
+      plugins: [
+        "@babel/plugin-transform-parameters",
+        "transform-es2015-arrow-functions"
+      ]
     })
   ]
 };
