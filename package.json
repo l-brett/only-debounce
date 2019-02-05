@@ -1,6 +1,6 @@
 {
   "name": "only-debounce",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Just a simple debounce function",
   "main": "dist/debounce.js",
   "scripts": {
